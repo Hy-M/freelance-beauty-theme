@@ -1,0 +1,527 @@
+/* Theme name: Freelance beauty 
+    Author: Humayraa
+    Author URI: https://www.humayraa.co.uk
+    Version: 1.0.0
+*/
+/* Root */
+:root {
+	--banner-bg-color: rgba(248, 223, 155, 0.212);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "PT Sans", "Ariel", "sans-serif";
+}
+
+/* Text */
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	opacity: 0.8;
+	transition: 0.3s;
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 2.2rem;
+	margin: 1rem 0;
+}
+
+h4 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+p {
+	line-height: 1.7rem;
+}
+
+.p--subtext {
+	font-size: 0.8rem;
+	color: rgb(51, 51, 51);
+}
+
+/* Containers */
+.section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.box {
+	margin: 1.5rem 0;
+	text-align: center;
+}
+
+/* Buttons */
+.btn--cta {
+	background-color: black;
+	color: bisque;
+	padding: 15px;
+	font-size: 0.9rem;
+	border: none;
+	border-radius: 3px;
+	font-family: inherit;
+	width: 60%;
+}
+
+.btn--cta a {
+	color: bisque;
+}
+
+.btn--cta:hover {
+	opacity: 0.9;
+	transition: 0.3s ease;
+}
+
+.btn--secondary {
+	background-color: blanchedalmond;
+	padding: 15px;
+	font-size: 0.9rem;
+	border: none;
+	border-radius: 3px;
+	font-family: inherit;
+	width: 60%;
+}
+
+.btn--secondary:hover {
+	background-color: rgb(255, 242, 221);
+	transition: 0.3s ease;
+}
+
+/* Navigation */
+nav {
+	height: 72px;
+	background-color: blanchedalmond;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	z-index: 100;
+}
+
+nav a {
+	padding: 0 1rem;
+}
+
+nav a:hover {
+	opacity: 0.6;
+	transition: 0.3s;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+nav ul {
+	display: none;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	list-style: none;
+}
+
+#menu--icon {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+/* Slide-out menu */
+
+#slideout--menu {
+	display: none;
+	background-color: blanchedalmond;
+	z-index: 100;
+	position: fixed;
+	transition: 0.3s;
+	width: 100%;
+	text-align: center;
+	margin-top: 3rem;
+}
+
+#slideout--menu ul {
+	list-style: none;
+	margin: 1rem 0;
+}
+
+#slideout--menu ul li {
+	padding: 0.5rem 0;
+	cursor: pointer;
+}
+
+/* Banner */
+#banner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: var(--banner-bg-color);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-blend-mode: overlay;
+}
+
+.banner--lg {
+	height: 80vh;
+	background-position: center;
+}
+
+.banner--sm {
+	height: 60vh;
+}
+.banner--xs {
+	height: 50vh;
+}
+
+.banner--heading {
+	letter-spacing: 2px;
+	line-height: 2.5rem;
+	text-align: center;
+}
+
+.banner--heading-emphasis {
+	text-transform: uppercase;
+}
+
+.banner--tagline {
+	width: 80%;
+	text-align: center;
+	line-height: 1.7rem;
+	margin-top: 1rem;
+}
+
+.banner--btn {
+	margin-top: 2rem;
+}
+
+/* Main */
+main {
+	width: 90%;
+	margin: 1rem auto;
+}
+
+/* Features section */
+
+.features--btn {
+	margin-top: 2rem;
+}
+
+.features--list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	row-gap: 2rem;
+}
+
+.features--list li {
+	list-style: none;
+}
+
+.features--list li i {
+	font-size: 2rem;
+	margin: 0.5rem 0;
+}
+
+/* Testimonials section */
+
+/* Footer */
+
+footer {
+	background-color: var(--banner-bg-color);
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 0;
+}
+
+.footer--box {
+	width: 90%;
+	margin: 1rem auto 0 auto;
+	text-align: center;
+}
+
+.footer--heading,
+.footer--description {
+	font-size: 0.9rem;
+}
+
+.footer--terms {
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+/* bloglist.html */
+.posts {
+	margin: 2rem 0;
+}
+
+.cards--card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1rem 0;
+	height: 100%;
+}
+
+.cards--card-description {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	width: 100%;
+}
+
+.cards--card-image img {
+	width: 300px;
+	height: 250px;
+	border-radius: 3px;
+}
+
+.cards--card-btn {
+	margin-top: 0.5rem;
+}
+
+/* blogpage.html */
+.banner--xs-blogpage {
+	background-image: url("./img/thumbnail.jpeg");
+}
+
+.post {
+	margin: 2rem 0;
+}
+
+.section--pagination {
+	font-size: 0.9rem;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 45vw;
+	margin: 0 auto;
+}
+/* contact.html */
+.contact {
+	margin: 1rem 0;
+}
+
+.contact--subheading {
+	text-align: center;
+	margin: 1rem 0 0 0;
+}
+#fs-frm {
+	margin: 2rem 0;
+}
+
+#fs-frm input,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+	font-family: inherit, "PT Sans", "Arial", "sans-serif";
+	font-size: 100%;
+	color: inherit;
+	border: none;
+	border-radius: 3px;
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+	margin-bottom: 0.5em;
+	padding-top: 0.2em;
+	display: flex;
+	align-items: baseline;
+}
+
+#message {
+	resize: none;
+}
+
+/* border, padding, margin, width */
+#fs-frm input,
+#fs-frm textarea,
+#fs-frm #card-element {
+	font-family: inherit;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 0.75em 1em;
+	margin-bottom: 1.5em;
+}
+
+#fs-frm input:focus,
+#fs-frm textarea:focus {
+	background-color: var(--banner-bg-color);
+	outline-style: solid;
+	outline-width: thin;
+	outline-color: blanchedalmond;
+	outline-offset: -1px;
+}
+
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+	width: 100%;
+}
+
+#fs-frm [type="button"],
+#fs-frm [type="submit"] {
+	width: 60%;
+	cursor: pointer;
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	background-color: blanchedalmond;
+	margin: 0 auto;
+	border: none;
+}
+
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus {
+	outline: none;
+}
+
+#fs-frm [type="submit"] {
+	margin-bottom: 0;
+}
+
+/* Media queries */
+@media (min-width: 768px) {
+	h4 {
+		margin-bottom: 1rem;
+	}
+
+	.box {
+		margin: 2rem 0;
+	}
+
+	.btn--cta,
+	.btn--secondary {
+		font-size: 1rem;
+		width: 30%;
+	}
+
+	nav {
+		height: 82px;
+	}
+
+	#menu--icon,
+	#logo {
+		font-size: 1.4rem;
+	}
+
+	#slideout--menu {
+		margin-top: 3.5rem;
+	}
+
+	#slideout--menu ul li {
+		padding: 1rem 0;
+	}
+
+	#banner {
+		height: 70vh;
+	}
+
+	.banner--tagline {
+		width: 60%;
+	}
+
+	main {
+		width: 75%;
+	}
+
+	.features--list {
+		row-gap: 2.5rem;
+		column-gap: 2.5rem;
+	}
+
+	.features--list li i {
+		font-size: 2.5rem;
+	}
+
+	.footer--box {
+		width: 50%;
+	}
+
+	/* bloglist.html */
+	.main--bloglist {
+		width: 90%;
+	}
+
+	.cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		row-gap: 2rem;
+		margin: 2rem 0;
+	}
+
+	.cards--card-btn {
+		width: 60%;
+	}
+
+	.section--pagination {
+		width: 30vw;
+	}
+
+	/* contact.html */
+	.contact--description {
+		text-align: center;
+	}
+
+	#fs-frm {
+		margin: 3rem 0;
+		width: 80%;
+	}
+
+	#fs-frm [type="button"],
+	#fs-frm [type="submit"] {
+		width: 45%;
+	}
+}
+
+@media (min-width: 1024px) {
+	#menu--icon {
+		display: none;
+	}
+
+	#slideout--menu {
+		display: none;
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	nav ul {
+		display: flex;
+	}
+
+	main {
+		width: 90%;
+	}
+
+	.features {
+		/* look into flex order or something */
+	}
+
+	/* bloglist.html */
+	.section--pagination {
+		width: 15vw;
+	}
+}
