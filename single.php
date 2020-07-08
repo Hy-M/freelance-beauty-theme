@@ -3,17 +3,17 @@
         the_post();
 ?>
 <!-- Running the single blog post page -->
-	<section id="banner" class="banner--xs banner--xs-blogpage" style="background-blend-mode: lighten; background: rgba(248, 223, 155, 0.4) url(<?php echo get_the_post_thumbnail_url(get_the_ID());?>) no-repeat center/100% scroll;">
-		<h1 class="banner--heading banner--heading-emphasis">
+	<section id="banner" class="banner--sm" style="background-blend-mode: lighten; background: rgba(248, 223, 155, 0.4) url(<?php echo get_the_post_thumbnail_url(get_the_ID());?>) no-repeat center/100% scroll;">
+		<h1 class="banner--heading banner--heading-emphasis banner--sm-heading">
 			<?php the_title();?>
 		</h1>
 		<p class="banner--tagline">
         By <?php the_author();?> on <?php the_time('F j, Y'); ?> in <a href="#"><?php echo get_the_category_list(', ');?></a>
 		</p>
 	</section>
-	<main>
+	<main class="main--singleBlog">
 		<section class="section post">
-			<p class="p post--text">
+			<p class="post--text">
 				<?php the_content();?>
 			</p>
 		</section>
