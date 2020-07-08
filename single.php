@@ -21,8 +21,8 @@
             <section class="comments--form">
             <?php 
                 $fields = array(
-                    'author' => '<input class="comments--form-input" placeholder="Your name" id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author']) . '" size="30"' . $aria_req . '/></p>',
-                    'email' => '<input class="comments--form-input" placeholder="Your email address" id="email" name="email" type="text" value="' . esc_attr( $commenter['comment_author_email']) . '" size="30"' . $aria_req . '/></p>',
+                    'author' => '<input class="comments--form-input" placeholder="Your name" id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author']) . '" size="30"' . $aria_req . '/>',
+                    'email' => '<input class="comments--form-input" placeholder="Your email address" id="email" name="email" type="text" value="' . esc_attr( $commenter['comment_author_email']) . '" size="30"' . $aria_req . '/>',
                 );
 
                 $args = array(

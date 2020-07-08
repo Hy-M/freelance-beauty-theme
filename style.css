@@ -523,7 +523,9 @@ footer {
 	}
 
 	.btn--cta,
-	#submit .btn--secondary {
+	#submit,
+	.btn--secondary,
+	.reply {
 		font-size: 1rem;
 		width: 30%;
 	}
