@@ -39,7 +39,7 @@
                 <?php
                 if($comments_number != 0) { ?>
                     <section class="comments">
-                        <h3 class="h3 comments--heading">What others are saying</h3>
+                        <h4 id="reply-title">What others are saying</h4>
                         <ol class="comments--list">
                             <?php 
                                 $comments = get_comments(array(
