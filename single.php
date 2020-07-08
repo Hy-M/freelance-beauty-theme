@@ -3,7 +3,7 @@
         the_post();
 ?>
 <!-- Running the single blog post page -->
-	<section id="banner" class="banner--xs banner--xs-blogpage" style="background-image:url(<?php echo get_the_post_thumbnail_url(get_the_ID());?>); background-color: rgba(248, 223, 155, 0.3); background-blend-mode: lighten;">
+	<section id="banner" class="banner--xs banner--xs-blogpage" style="background-blend-mode: lighten; background: rgba(248, 223, 155, 0.4) url(<?php echo get_the_post_thumbnail_url(get_the_ID());?>) no-repeat center/100% scroll;">
 		<h1 class="banner--heading banner--heading-emphasis">
 			<?php the_title();?>
 		</h1>

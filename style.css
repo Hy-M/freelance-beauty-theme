@@ -306,7 +306,9 @@ footer {
 }
 
 /* blogpage.html */
-.banner--xs-blogpage {}
+.banner--xs-blogpage {
+	padding-top: 4rem;
+}
 
 .post {
 	margin: 2rem 0;
