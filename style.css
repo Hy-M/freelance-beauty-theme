@@ -617,6 +617,9 @@ footer {
 }
 
 @media (min-width: 1024px) {
+	h4 {
+		line-height: 2rem;
+	}
 	/* buttons */
 	.btn--cta,
 	#submit,
@@ -651,6 +654,7 @@ footer {
 	/* main */
 	main {
 		width: 70%;
+		margin: 2rem auto;
 	}
 
 	/* Banner */
@@ -682,16 +686,49 @@ footer {
 	}
 
 	.features--btn {
-		width: auto;
+		width: 60%;
 	}
 
 	/* footer */
 	.section--footer {
-		display: flex;
-		flex-direction: row;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		margin: 0 auto 1rem auto;
+		width: 70%;
+	}
+	/* blog section */
+	.frontpage--posts {
+		padding-top: 2rem;
+		border-top: 2px solid blanchedalmond;
+	}
+
+	.main--bloglist {
+		width: 70%;
+	}
+
+	.cards {
+		column-gap: 3rem;
+	}
+
+	.cards--card {
+		background-color: var(--banner-bg-color);
+		padding: 1rem 0;
+	}
+	.cards--card-description {
+		width: 70%;
+		justify-content: space-between;
+	}
+
+	.cards--card-image img {
+		width: 400px;
+		height: 350px;
 		margin-bottom: 1rem;
 	}
-	/* bloglist.html */
+
+	.cards--card-btn {
+		width: 50%;
+	}
+
 	.section--pagination {
 		width: 15vw;
 	}

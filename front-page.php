@@ -61,8 +61,8 @@
 					<p class="p testimonials--tagline">Humz is v cool</p>
 				</div>
             </section> -->
-            <section class="section posts">
-                <h4 class="h4">Latest blog posts</h4>
+            <section class="section posts frontpage--posts">
+                <h4 class="h4"><a href="<?php echo site_url('/blog'); ?>">Latest blog posts</a></h4>
 				<section class="section cards">
                 <?php 
                     $args = array(
