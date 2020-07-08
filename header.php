@@ -11,7 +11,7 @@
 		<header>
 			<div id="slideout--menu">
 				<ul>
-					<li><a class="active" href="<?php echo site_url(''); ?>">Home</a></li>
+					<li><a href="<?php echo site_url(''); ?>">Home</a></li>
 					<li><a href="<?php echo site_url('/work'); ?>">Client work</a></li>
 					<li><a href="<?php echo site_url('/blog'); ?>">Blog</a></li>
 					<li><a href="<?php echo site_url('/contact'); ?>">Contact</a></li>
@@ -27,7 +27,7 @@
 					<i class="fas fa-bars"></i>
 				</div>
 				<ul>
-                    <li><a class="active" href="<?php echo site_url(''); ?>">Home</a></li>
+                    <li><a href="<?php echo site_url(''); ?>">Home</a></li>
 					<li><a href="<?php echo site_url('/work'); ?>">Client work</a></li>
 					<li><a href="<?php echo site_url('/blog'); ?>">Blog</a></li>
 					<li><a href="<?php echo site_url('/contact'); ?>">Contact</a></li>

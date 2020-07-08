@@ -183,6 +183,7 @@ nav ul {
 .banner--sm {
 	height: 60vh;
 }
+
 .banner--xs {
 	height: 50vh;
 }
@@ -296,9 +297,7 @@ footer {
 }
 
 /* blogpage.html */
-.banner--xs-blogpage {
-	background-image: url("./img/thumbnail.jpeg");
-}
+.banner--xs-blogpage {}
 
 .post {
 	margin: 2rem 0;
@@ -312,6 +311,7 @@ footer {
 	width: 45vw;
 	margin: 0 auto;
 }
+
 /* contact.html */
 .contact {
 	margin: 1rem 0;
@@ -321,6 +321,7 @@ footer {
 	text-align: center;
 	margin: 1rem 0 0 0;
 }
+
 #fs-frm {
 	margin: 2rem 0;
 }

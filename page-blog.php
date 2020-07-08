@@ -9,7 +9,6 @@
 		</section>
 		<main class="main--bloglist">
 			<section class="section posts">
-                <!-- <h2 class="h2">HY digital blog</h2> -->
 				<section class="section cards">
 				<?php 
 					$current_page = get_query_var('paged') ? get_query_var('paged'):1;
