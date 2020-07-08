@@ -283,6 +283,9 @@ footer {
 	align-items: center;
 	margin: 1rem 0;
 	height: 100%;
+	background-color: var(--banner-bg-color);
+	padding: 1rem 0;
+	border-radius: 3px;
 }
 
 .cards--card-description {
@@ -429,6 +432,9 @@ footer {
 
 #fs-frm {
 	margin: 2rem 0;
+	background-color: var(--banner-bg-color);
+	padding: 1rem;
+	border-radius: 3px;
 }
 
 #fs-frm input,
@@ -600,7 +606,7 @@ footer {
 		width: 30vw;
 	}
 
-	/* contact.html */
+	/* contact */
 	.contact--description {
 		text-align: center;
 	}
@@ -713,11 +719,6 @@ footer {
 	.cards {
 		column-gap: 3rem;
 	}
-
-	.cards--card {
-		background-color: var(--banner-bg-color);
-		padding: 1rem 0;
-	}
 	.cards--card-description {
 		width: 70%;
 		justify-content: space-between;
@@ -735,5 +736,11 @@ footer {
 
 	.section--pagination {
 		width: 15vw;
+	}
+
+	/* contact */
+	.contact {
+		width: 60%;
+		margin: 0 auto;
 	}
 }
