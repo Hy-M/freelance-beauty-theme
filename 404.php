@@ -8,7 +8,11 @@
 			</p>
 		</section>
 <main>
-    
+    <section class="section">
+		<div class="box">
+			<img class="four04--image" src="https://http.cat/404" alt="">
+		</div>
+	</section>
 </main>
 
 <?php get_footer();?>

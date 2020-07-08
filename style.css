@@ -415,7 +415,7 @@ footer {
 }
 
 .comments {
-	margin-bottom: 3rem
+	margin-bottom: 3rem;
 }
 
 /* contact.html */
@@ -510,9 +510,13 @@ footer {
 	margin-bottom: 0;
 }
 
+/* 404 */
+.four04--image {
+	width: 100%;
+}
+
 /* Media queries */
 @media (min-width: 768px) {
-
 	h4,
 	#reply-title {
 		margin-bottom: 1rem;
