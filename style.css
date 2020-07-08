@@ -395,6 +395,23 @@ footer {
 	margin: 1rem auto 0 auto;
 }
 
+#cancel-comment-reply-link {
+	display: block;
+	margin: 1rem auto 0 auto;
+	text-transform: none;
+	font-weight: normal;
+	background-color: blanchedalmond;
+	padding: 15px;
+	font-size: 0.9rem;
+	border: none;
+	border-radius: 3px;
+	font-family: inherit;
+	width: 60%;
+	text-align: center;
+	letter-spacing: normal;
+	line-height: normal;
+}
+
 .comments {
 	margin-bottom: 3rem
 }
