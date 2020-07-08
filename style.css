@@ -553,7 +553,7 @@ footer {
 		padding: 1rem 0;
 	}
 
-	#banner {
+	.banner--lg {
 		height: 70vh;
 	}
 
@@ -658,8 +658,12 @@ footer {
 	}
 
 	/* Banner */
-	#banner {
+	.banner--lg {
 		height: 90vh;
+	}
+
+	.banner--sm-heading {
+		margin-top: 4rem;
 	}
 	.banner--heading {
 		font-size: 2rem;

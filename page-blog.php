@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-		<section id="banner" class="banner--xs">
-			<h1 class="banner--heading banner--heading-emphasis">
+		<section id="banner" class="banner--sm">
+			<h1 class="banner--heading banner--heading-emphasis banner--sm-heading">
 				Welcome to my blog
 			</h1>
 			<p class="banner--tagline">
@@ -37,7 +37,7 @@
 								</h4>
 							</a>
 							<p class="p--subtext">By <?php the_author();?> on <?php the_time('F j, Y'); ?> in <a href="#"><?php echo get_the_category_list(', ');?></a></p>
-							<p class="p">
+							<p>
                                 <?php echo wp_trim_words(get_the_excerpt(), 15); ?>
 							</p>
 							<a class="btn--secondary cards--card-btn" href="<?php the_permalink(); ?>">Read more</a>
@@ -58,4 +58,5 @@
 					?>
 			</section>
 		</main>
+
 <?php get_footer(); ?>

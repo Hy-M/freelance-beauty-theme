@@ -1,6 +1,6 @@
 <?php get_header();?>
-		<section id="banner" class="banner--lg ">
-			<h1 class="banner--heading banner--heading-emphasis">
+		<section id="banner" class="banner--sm">
+			<h1 class="banner--heading banner--heading-emphasis banner--sm-heading">
 				Client work
 			</h1>
 			<p class="banner--tagline">
@@ -37,6 +37,7 @@
 									<?php the_title();?>
 								</h4>
 							</a>
+							<p class="p--subtext">By <?php the_author();?> on <?php the_time('F j, Y'); ?></p>
 							<p>
                                 <?php echo wp_trim_words(get_the_excerpt(), 15); ?>
 							</p>
