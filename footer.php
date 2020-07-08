@@ -1,4 +1,7 @@
 <footer>
+	<section class="section--footer">
+
+
 			<div id="footer--left">
 				<div class="footer--box">
 					<h4 class="h4 footer--heading">HY digital</h4>
@@ -15,6 +18,7 @@
 					</h4>
 				</div>
 			</div>
+			</section>
 			<p class="p footer--terms">HY digital &copy; 2020</p>
 		</footer>
 		<?php wp_footer(); ?>

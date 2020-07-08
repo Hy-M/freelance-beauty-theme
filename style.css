@@ -326,7 +326,6 @@ footer {
 /* Comments section*/
 .section--comments {
 	border-top: 2px solid blanchedalmond;
-	/* padding: 1rem 0; */
 }
 
 .comments--form {
@@ -511,6 +510,9 @@ footer {
 }
 
 /* 404 */
+.section--four04 {
+	padding-top: 3rem;
+}
 .four04--image {
 	width: 100%;
 }
@@ -572,6 +574,8 @@ footer {
 		font-size: 2.5rem;
 	}
 
+	/* footer */
+
 	.footer--box {
 		width: 50%;
 	}
@@ -613,8 +617,30 @@ footer {
 }
 
 @media (min-width: 1024px) {
+	/* buttons */
+	.btn--cta,
+	#submit,
+	.btn--secondary,
+	.reply {
+		padding: 20px;
+		width: 20%;
+	}
+
+	nav {
+		height: 100px;
+	}
+
+	nav ul {
+		display: flex;
+	}
+
+	nav ul li {
+		font-size: 1.3rem;
+	}
+
 	#menu--icon {
 		display: none;
+		pointer-events: none;
 	}
 
 	#slideout--menu {
@@ -622,19 +648,49 @@ footer {
 		opacity: 0;
 		pointer-events: none;
 	}
-
-	nav ul {
-		display: flex;
-	}
-
+	/* main */
 	main {
-		width: 90%;
+		width: 70%;
 	}
 
-	.features {
-		/* look into flex order or something */
+	/* Banner */
+	#banner {
+		height: 90vh;
+	}
+	.banner--heading {
+		font-size: 2rem;
+		letter-spacing: 3px;
+		margin-bottom: 1rem;
+	}
+	.banner--tagline {
+		width: 30%;
+		font-size: 1.5rem;
+		line-height: 2.8rem;
+		letter-spacing: 1px;
 	}
 
+	.banner--btn {
+		margin-top: 3rem;
+		font-size: 1.2rem;
+	}
+
+	/* features */
+
+	.one,
+	.three {
+		width: 50%;
+	}
+
+	.features--btn {
+		width: auto;
+	}
+
+	/* footer */
+	.section--footer {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 1rem;
+	}
 	/* bloglist.html */
 	.section--pagination {
 		width: 15vw;

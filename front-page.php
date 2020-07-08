@@ -13,7 +13,7 @@
 		</section>
 		<main>
 			<section class="section features">
-				<div class="box features--box">
+				<div class="box features--box one">
 					<h4 class="h4 features--heading">
 						Running a business is enough work...
 					</h4>
@@ -22,7 +22,7 @@
 						and social media manager too! Leave it to me - it's what I do best.
 					</p>
 				</div>
-				<div class="box features--box">
+				<div class="box features--box two">
 					<h4 class="h4 features--heading">Services I offer</h4>
 					<ul class="features--list">
 						<li>
@@ -43,7 +43,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="box features--box">
+				<div class="box features--box three">
 					<h4 class="h4 features--heading">Let's work together</h4>
 					<p class="p features--tagline">
 						With my help, you can take your business to new heights. I offer a

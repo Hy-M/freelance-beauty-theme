@@ -19,7 +19,7 @@
 			</div>
 			<nav>
 				<section id="logo">
-					<a href="#">
+					<a href="<?php echo site_url(''); ?>">
 						<p>HY digital</p>
 					</a>
 				</section>
