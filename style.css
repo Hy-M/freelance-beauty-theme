@@ -741,9 +741,6 @@ footer {
 		width: 70%;
 	}
 
-	.cards {
-		column-gap: 3rem;
-	}
 	.cards--card-description {
 		width: 70%;
 		justify-content: space-between;
@@ -771,7 +768,7 @@ footer {
 
 	.section--comments {
 		width: 70%;
-		margin: 3rem auto 0 auto;
+		margin: 0 auto;
 	}
 
 	.comments--form {
@@ -779,7 +776,7 @@ footer {
 	}
 
 	#submit {
-		padding: 15px;
+		padding: 8px;
 	}
 
 	.reply {
