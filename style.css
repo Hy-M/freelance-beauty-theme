@@ -723,13 +723,15 @@ footer {
 	.banner--sm-heading {
 		margin-top: 4rem;
 	}
+
 	.banner--heading {
 		font-size: 2rem;
 		letter-spacing: 3px;
 		margin-bottom: 1rem;
+		margin-top: 4rem;
 	}
 	.banner--tagline {
-		width: 30%;
+		width: 60%;
 		font-size: 1.5rem;
 		line-height: 2.8rem;
 		letter-spacing: 1px;
@@ -738,6 +740,7 @@ footer {
 	.banner--btn {
 		margin-top: 3rem;
 		font-size: 1.2rem;
+		width: 30%;
 	}
 
 	/* features */
@@ -817,7 +820,7 @@ footer {
 
 	/* contact */
 	.contact {
-		width: 60%;
+		width: 70%;
 		margin: 0 auto;
 	}
 }
@@ -885,7 +888,7 @@ footer {
 	.banner--tagline {
 		font-size: 1.7rem;
 		line-height: 3.5rem;
-		width: 60%;
+		width: 55%;
 	}
 
 	.banner--btn {
