@@ -110,13 +110,20 @@ p {
 }
 
 /* Navigation */
+.logo--img {
+	margin-top: 1rem;
+	height: 250px;
+	width: 250px;
+	padding: 0;
+	margin-left: -5rem;
+}
 nav {
-	height: 72px;
+	height: 75px;
 	background-color: blanchedalmond;
 	width: 100%;
 	position: fixed;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
 	z-index: 100;
 }
@@ -543,8 +550,15 @@ footer {
 		width: 30%;
 	}
 
+	.logo--img {
+		margin-top: 1.8rem;
+		height: 300px;
+		width: 300px;
+	}
+
 	nav {
 		height: 82px;
+		justify-content: space-around;
 	}
 
 	#menu--icon,
@@ -660,12 +674,21 @@ footer {
 		width: 20%;
 	}
 
+	.logo--img {
+		margin-top: 2rem;
+		height: 350px;
+		width: 350px;
+		margin-left: 0;
+	}
+
 	nav {
 		height: 100px;
+		justify-content: space-between;
 	}
 
 	nav ul {
 		display: flex;
+		margin-right: 2rem;
 	}
 
 	nav ul li {
