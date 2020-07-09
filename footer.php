@@ -4,7 +4,7 @@
 
 			<div id="footer--left">
 				<div class="footer--box">
-					<h4 class="h4 footer--heading">HY digital</h4>
+					<h4 class="h4 footer--heading">HY Dev</h4>
 					<p class="p footer--description">
 						I'm a freelance web developer offering digital services to sole
 						traders and businesses in the beauty industry across the UK.
@@ -19,7 +19,7 @@
 				</div>
 			</div>
 			</section>
-			<p class="p footer--terms">HY digital &copy; 2020</p>
+			<p class="p footer--terms">HY DEV &copy; 2020</p>
 		</footer>
 		<?php wp_footer(); ?>
 	</body>

@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 		<section id="banner" class="banner--sm">
 			<h1 class="banner--heading banner--heading-emphasis banner--sm-heading">
-				Welcome to my blog
+				Beauty - but make it digital
 			</h1>
 			<p class="banner--tagline">
-				Beauty and business related content
+				All things beauty and business, from life hacks to online tips to help your business grow
 			</p>
 		</section>
 		<main class="main--bloglist">

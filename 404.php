@@ -1,6 +1,6 @@
 <?php get_header();?>
-<section id="banner" class="banner--xs">
-			<h1 class="banner--heading banner--heading-emphasis">
+<section id="banner" class="banner--sm">
+			<h1 class="banner--heading banner--heading-emphasis banner--sm-heading">
 				Oops
 			</h1>
 			<p class="banner--tagline">

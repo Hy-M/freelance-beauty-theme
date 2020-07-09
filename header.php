@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <?php wp_head(); ?>
-		<title>HY digital</title>
+		<title>HY Dev - Freelance developer</title>
 	</head>
 	<body>
 		<header>
