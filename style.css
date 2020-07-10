@@ -744,7 +744,6 @@ footer {
 @media (min-width: 1024px) {
 	/* buttons */
 	.btn--cta,
-	#submit,
 	.btn--secondary,
 	.reply {
 		padding: 20px;
@@ -843,18 +842,11 @@ footer {
 	}
 
 	.cards--card-description {
-		width: 70%;
 		justify-content: space-between;
 	}
 
-	.cards--card-image img {
-		width: 400px;
-		height: 350px;
-		margin-bottom: 1rem;
-	}
-
 	.cards--card-btn {
-		width: 50%;
+		width: 60%;
 	}
 
 	.section--pagination {
@@ -969,10 +961,6 @@ footer {
 	}
 
 	/* features */
-	.features--btn {
-		/* margin-top: 4rem; */
-	}
-
 	.features--btn {
 		width: 60%;
 	}
