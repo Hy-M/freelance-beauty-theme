@@ -20,8 +20,8 @@
 			<nav>
 				<section id="logo">
 					<a href="<?php echo site_url(''); ?>">
-						<!-- <p>HY digital</p> -->
-						<img class="logo--img" src="<?php echo get_template_directory_uri(); ?>/img/hydev.png" alt="">
+						<p>HY digital</p>
+						<!-- <img class="logo--img" src="<?php echo get_template_directory_uri(); ?>/img/hydev.png" alt=""> -->
 					</a>
 					
 				</section>

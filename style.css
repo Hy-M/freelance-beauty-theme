@@ -24,6 +24,11 @@ a {
 	text-decoration: none;
 }
 
+.link {
+	text-decoration: underline;
+	text-underline-position: under;
+}
+
 a:hover {
 	opacity: 0.8;
 	transition: 0.3s;
@@ -221,6 +226,7 @@ nav ul {
 
 .banner--btn {
 	margin-top: 2rem;
+	width: 65%;
 }
 
 /* Main */
@@ -233,6 +239,7 @@ main {
 
 .features--btn {
 	margin-top: 2rem;
+	width: 70%;
 }
 
 .features--list {
@@ -263,7 +270,7 @@ footer {
 
 .footer--box {
 	width: 90%;
-	margin: 1rem auto 0 auto;
+	margin: 1rem auto;
 	text-align: center;
 }
 
@@ -877,7 +884,7 @@ footer {
 	.banner--heading {
 		font-size: 2.5rem;
 		letter-spacing: 4px;
-		width: 60%;
+		width: 55%;
 		line-height: 4rem;
 	}
 
