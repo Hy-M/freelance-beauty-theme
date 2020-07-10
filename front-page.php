@@ -1,36 +1,39 @@
 <?php get_header(); ?>
 		<section id="banner" class="banner--lg">
 			<h1 class="banner--heading ">
-				Beauty - but make it digital
+				Web solutions for businesses in the beauty services sector
 			</h1>
 			<p class="banner--tagline">
-				I help small businesses in the beauty services sector to maximise their
-				potential through their online presence
+				I'll handle the tech. You'll get more clients. 
 			</p>
 			<button class="banner--btn btn--cta">
-				<a href="<?php echo site_url('/contact'); ?>">Let's work together</a>
+				<a href="<?php echo site_url('/contact'); ?>">I want more clients</a>
 			</button>
 		</section>
 		<main>
 			<section class="section features">
 			<div class="box features--box two" id="services">
-					<h4 class="h4 features--heading" >Services I offer</h4>
+					<h4 class="h4 features--heading" >How I get you more clients</h4>
 					<ul class="features--list">
 						<li>
 							<i class="fas fa-laptop-code"></i>
 							<p class="p features--tagline">Web development</p>
+							
 						</li>
 						<li>
 							<i class="fab fa-searchengin"></i>
 							<p class="p features--tagline">Search engine optimisation</p>
+							
 						</li>
 						<li>
 							<i class="fas fa-hashtag"></i>
 							<p class="p features--tagline">Social media management</p>
+							
 						</li>
 						<li>
 							<i class="fas fa-infinity"></i>
 							<p class="p features--tagline">Website maintenance</p>
+							
 						</li>
 					</ul>
 				</div>

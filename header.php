@@ -3,9 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="description" content="<?php bloginfo('description'); ?>" />
         <?php wp_head(); ?>
-		<title>HY Dev - Freelance developer</title>
+		<title>Beauty made digital - web solutions for businesses in the beauty services sector</title>
 	</head>
 	<body>
 		<header>
@@ -20,7 +21,8 @@
 			<nav>
 				<section id="logo">
 					<a href="<?php echo site_url(''); ?>">
-						<p>HY digital</p>
+						<h4 class="h4 logo--title">Beauty made digital</h4>
+						<p class="p--subtext logo--subtext" style="text-align: center;">By Humayraa</p>
 						<!-- <img class="logo--img" src="<?php echo get_template_directory_uri(); ?>/img/hydev.png" alt=""> -->
 					</a>
 					

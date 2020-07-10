@@ -1,8 +1,8 @@
 <?php get_header();?>
 <section id="banner" class="banner--sm">
-			<h1 class="banner--heading banner--heading-emphasis banner--sm-heading">
+			<h2 class="banner--heading banner--heading-emphasis banner--sm-heading">
 				Oops
-			</h1>
+			</h2>
 			<p class="banner--tagline">
 				The page you are looking for does not exist
 			</p>

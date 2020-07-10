@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 		<section id="banner" class="banner--sm">
-			<h2 class="banner--heading banner--heading-emphasis banner--sm-heading">
-				Blog
+			<h2 class="banner--heading banner--sm-heading">
+				Beauty - but make it digital
 			</h2>
 			<p class="banner--tagline">
 				All things beauty and business, from life hacks to online tips to help you upskill

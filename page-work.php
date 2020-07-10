@@ -1,6 +1,6 @@
 <?php get_header();?>
 		<section id="banner" class="banner--sm">
-			<h2 class="banner--heading banner--heading-emphasis banner--sm-heading">
+			<h2 class="banner--heading banner--sm-heading">
 				Client work
 			</h2>
 			<p class="banner--tagline">

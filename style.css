@@ -30,12 +30,12 @@ a {
 }
 
 a:hover {
-	opacity: 0.8;
+	opacity: 0.7;
 	transition: 0.3s;
 }
 
 h2 {
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	letter-spacing: 3px;
 	line-height: 2.2rem;
 	margin: 1rem 0;
@@ -92,6 +92,7 @@ p {
 	font-family: inherit;
 	width: 60%;
 	text-align: center;
+	box-shadow: 0px 7px 13px rgba(0, 0, 0, 0.863);
 }
 
 .btn--cta a,
@@ -115,6 +116,7 @@ p {
 	font-family: inherit;
 	width: 60%;
 	text-align: center;
+	box-shadow: 0px 7px 13px rgba(0, 0, 0, 0.144);
 }
 
 .btn--secondary:hover,
@@ -130,9 +132,18 @@ nav {
 	width: 100%;
 	position: fixed;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	align-items: center;
 	z-index: 100;
+}
+
+.logo--title {
+	margin: 0 0 -0.2rem -0.5rem;
+	padding: 0;
+}
+
+.logo--subtext {
+	margin-left: -0.5rem;
 }
 
 .logo--img {
@@ -148,8 +159,6 @@ nav a {
 }
 
 nav a:hover {
-	opacity: 0.6;
-	transition: 0.3s;
 }
 
 .active {
@@ -234,6 +243,7 @@ nav ul {
 	letter-spacing: 2px;
 	line-height: 2.5rem;
 	text-align: center;
+	width: 90%;
 	/* text-transform: uppercase; */
 }
 
@@ -418,6 +428,7 @@ footer {
 
 #submit {
 	margin-top: 1rem;
+	box-shadow: 0px 7px 13px rgba(0, 0, 0, 0.575);
 }
 
 .comments--list {
@@ -456,6 +467,7 @@ footer {
 	text-align: center;
 	letter-spacing: normal;
 	line-height: normal;
+	box-shadow: 0px 7px 13px rgba(0, 0, 0, 0.144);
 }
 
 .comments {
@@ -546,6 +558,7 @@ footer {
 	background-color: blanchedalmond;
 	margin: 0 auto;
 	border: none;
+	box-shadow: 0px 7px 13px rgba(0, 0, 0, 0.144);
 }
 
 #fs-frm [type="button"]:focus,
@@ -566,6 +579,19 @@ footer {
 }
 
 /* Media queries */
+@media (min-width: 425px) {
+	main {
+		width: 85%;
+	}
+	.banner--heading,
+	.banner--sm-heading {
+		width: 90%;
+	}
+
+	.footer--box {
+		width: 75%;
+	}
+}
 @media (min-width: 768px) {
 	h4,
 	.p-emphasis,
@@ -590,6 +616,11 @@ footer {
 		justify-content: space-around;
 	}
 
+	.logo--title {
+		margin: 0.5rem 0 0 0;
+		padding: 0;
+	}
+
 	.logo--img {
 		margin-top: 1.8rem;
 		height: 300px;
@@ -607,6 +638,11 @@ footer {
 
 	#slideout--menu ul li {
 		padding: 1rem 0;
+	}
+
+	.banner--heading {
+		width: 70%;
+		margin-top: 3rem;
 	}
 
 	.banner--lg {
@@ -682,8 +718,8 @@ footer {
 	}
 
 	/* contact */
-	.contact--description {
-		text-align: center;
+	.contact--subheading {
+		width: 100%;
 	}
 
 	#fs-frm {
@@ -719,12 +755,12 @@ footer {
 
 	nav {
 		height: 100px;
-		justify-content: space-between;
+		/* justify-content: space-between; */
 	}
 
 	nav ul {
 		display: flex;
-		margin-right: 2rem;
+		/* margin-right: 2rem; */
 	}
 
 	nav ul li {
@@ -752,15 +788,13 @@ footer {
 		height: 90vh;
 	}
 
-	.banner--sm-heading {
-		margin-top: 4rem;
-	}
-
 	.banner--heading {
 		font-size: 2rem;
 		letter-spacing: 3px;
 		margin-bottom: 1rem;
 		margin-top: 4rem;
+		line-height: 4rem;
+		width: 50%;
 	}
 	.banner--tagline {
 		width: 60%;
@@ -910,12 +944,12 @@ footer {
 	.banner--heading {
 		font-size: 2.5rem;
 		letter-spacing: 4px;
-		width: 55%;
-		line-height: 4rem;
+		line-height: 4.5rem;
 	}
 
 	.banner--sm-heading {
-		margin-top: 8rem;
+		margin-top: 7rem;
+		width: 40%;
 	}
 
 	.banner--tagline {
@@ -925,6 +959,7 @@ footer {
 	}
 
 	.banner--btn {
+		width: 21%;
 		font-size: 1.3rem;
 	}
 
@@ -996,8 +1031,7 @@ footer {
 		margin-bottom: 4rem;
 	}
 
-	/* contact */
-	.contact {
-		margin: 4rem auto;
+	.contact--subheading {
+		width: 80%;
 	}
 }

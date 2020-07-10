@@ -1,19 +1,19 @@
 <?php get_header(); ?>
 	<section id="banner" class="banner--sm">
 		<h2 class="banner--heading banner--sm-heading">
-				Ask me anything
+				Let's build something great together
 		</h2>
 		<p class="p banner--tagline">
-				Do you have an exciting idea that you want implementing? Or maybe you
-				need ongoing technical support? Are you looking to build your online
-				presence?
+			Ask me anything. I'm happy to help.
 		</p>
 	</section>
 	<main>
 		<section class="section contact">
-			<p class="p-emphasis contact--subheading">
-					Whatever it is, I want to hear from you
-</p>
+			<p class="contact--subheading">
+			Do you have an exciting idea for a website that you want implementing by a web developer? Or maybe you
+				need website maintenance? Are you looking to build your online
+				presence on social media and search engines?
+			</p>
 			<form
 				id="fs-frm"
 				name="simple-contact-form"

@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 		<section id="banner" class="banner--sm">
-			<h1 class="banner--heading banner--heading-emphasis banner--sm-heading">
+			<h2 class="banner--heading banner--heading-emphasis banner--sm-heading">
 				<?php the_archive_title();  ?>
-			</h1>
+			</h2>
 		</section>
 		<main class="main--bloglist">
 			<section class="section posts">
