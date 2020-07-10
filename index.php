@@ -4,7 +4,7 @@
 				Beauty - but make it digital
 			</h2>
 			<p class="banner--tagline">
-				All things beauty and business, from life hacks to online tips to help you upskill
+				All things beauty and business
 			</p>
 		</section>
 		<main class="main--bloglist">
@@ -27,7 +27,7 @@
 					<div class="cards--card">
 						<div class="cards--card-image">
 							<a href="<?php the_permalink();?>">
-								<img src="<?php echo get_the_post_thumbnail_url(get_the_ID());?>" alt="" />
+								<img src="<?php echo get_the_post_thumbnail_url(get_the_ID());?>" alt="blog-post-thumbnail-image" />
 							</a>
 						</div>
 						<div class="cards--card-description">

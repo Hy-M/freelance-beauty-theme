@@ -2,7 +2,6 @@
     while(have_posts()) {
         the_post();
 ?>
-<!-- Running the single blog post page -->
     <section id="banner" class="banner--sm" style="background-blend-mode: lighten; background: rgb(255, 235, 205, 0.6) url(<?php echo get_the_post_thumbnail_url(get_the_ID());?>) no-repeat center/100% scroll;">
 		<h2 class="banner--heading banner--sm-heading">
 			<?php the_title();?>
@@ -52,10 +51,8 @@
                             ?>
                         </ol>
                     </section>
-
                 <?php } ?>
 		</section>
 <?php } ?>
 	</main>
-
 <?php get_footer(); ?>

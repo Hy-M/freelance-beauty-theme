@@ -298,14 +298,19 @@ main {
 
 footer {
 	background-color: var(--banner-bg-color);
-	display: flex;
-	flex-direction: column;
 	padding: 1rem 0;
 }
 
-.footer--box {
+.section--footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	width: 90%;
-	margin: 1rem auto;
+	margin: 0 auto;
+}
+
+.footer--box {
+	margin: 1rem 0;
 	text-align: center;
 }
 
@@ -317,6 +322,13 @@ footer {
 .footer--terms {
 	font-size: 0.8rem;
 	text-align: center;
+}
+
+.footer--list {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr;
+	row-gap: 0.5rem;
 }
 
 /* posts & project posts */
@@ -605,8 +617,8 @@ footer {
 		width: 90%;
 	}
 
-	.footer--box {
-		width: 75%;
+	.section--footer {
+		width: 80%;
 	}
 }
 @media (min-width: 768px) {
@@ -693,8 +705,11 @@ footer {
 
 	/* footer */
 
-	.footer--box {
-		width: 50%;
+	.section--footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		width: 90%;
+		column-gap: 1rem;
 	}
 
 	/* bloglist.html */
@@ -842,12 +857,7 @@ footer {
 	}
 
 	/* footer */
-	.section--footer {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		margin: 0 auto 1rem auto;
-		width: 70%;
-	}
+
 	/* blog section */
 	.frontpage--posts {
 		padding-top: 2rem;
@@ -998,6 +1008,10 @@ footer {
 		font-size: 0.9rem;
 	}
 
+	.section--footer {
+		width: 70%;
+	}
+
 	/* posts & project posts */
 	.cards {
 		column-gap: 1.5rem;
@@ -1043,11 +1057,4 @@ footer {
 	.contact--subheading {
 		width: 80%;
 	}
-}
-
-@media (min-width: 1280px) {
-	/* .banner--heading {
-		color: green;
-		font-size: 1rem;
-	} */
 }

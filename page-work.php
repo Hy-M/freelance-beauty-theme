@@ -28,7 +28,7 @@
 					<div class="cards--card">
 						<div class="cards--card-image">
 							<a href="<?php the_permalink();?>">
-								<img src="<?php echo get_the_post_thumbnail_url(get_the_ID());?>" alt="" />
+								<img src="<?php echo get_the_post_thumbnail_url(get_the_ID());?>" alt="blog-post-thumbnail-image" />
 							</a>
 						</div>
 						<div class="cards--card-description">

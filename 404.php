@@ -10,7 +10,7 @@
 <main>
     <section class="section section--four04">
 		<div class="box">
-			<img class="four04--image" src="https://http.cat/404" alt="">
+			<img class="four04--image" src="https://http.cat/404" alt="404-not-found">
 		</div>
 	</section>
 </main>
