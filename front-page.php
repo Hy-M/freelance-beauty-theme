@@ -13,8 +13,8 @@
 		</section>
 		<main>
 			<section class="section features">
-			<div class="box features--box two">
-					<h4 class="h4 features--heading">Services I offer</h4>
+			<div class="box features--box two" id="services">
+					<h4 class="h4 features--heading" >Services I offer</h4>
 					<ul class="features--list">
 						<li>
 							<i class="fas fa-laptop-code"></i>

@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 	<section id="banner" class="banner--sm">
-		<h1 class="banner--heading banner--sm-heading">
+		<h2 class="banner--heading banner--sm-heading">
 				Ask me anything
-		</h1>
+		</h2>
 		<p class="p banner--tagline">
 				Do you have an exciting idea that you want implementing? Or maybe you
 				need ongoing technical support? Are you looking to build your online
@@ -11,9 +11,9 @@
 	</section>
 	<main>
 		<section class="section contact">
-			<h4 class="h4 contact--subheading">
+			<p class="p-emphasis contact--subheading">
 					Whatever it is, I want to hear from you
-			</h4>
+</p>
 			<form
 				id="fs-frm"
 				name="simple-contact-form"
