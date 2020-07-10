@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 		<section id="banner" class="banner--lg">
 			<h1 class="banner--heading ">
-				Providing digital solutions for businesses in the beauty services sector
+				I provide digital solutions for businesses in the beauty services sector
 			</h1>
 			<p class="banner--tagline">
-				I help beauty services get more clients
+				I help beauty businesses get more clients
 			</p>
 			<button class="banner--btn btn--cta">
-				<a href="<?php echo site_url('/contact'); ?>">I want more clients</a>
+				<a href="<?php echo site_url('/contact'); ?>">Get more clients</a>
 			</button>
 		</section>
 		<main>
@@ -42,7 +42,7 @@
 						Tailored to beauty services
 					</h4>
 					<p class="p features--tagline">
-						I provide everything you need to maximise your beauty business' potential. From beautiful, responsive design to editable content and social media integration. 
+						I provide everything you need to maximise your beauty business' potential. From beautiful, responsive design with editable content, to social media integration and analytics.
 					</p>
 					
 				</div>
