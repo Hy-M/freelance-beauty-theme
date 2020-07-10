@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 		<section id="banner" class="banner--lg">
 			<h1 class="banner--heading ">
-				Web solutions for businesses in the beauty services sector
+				Providing digital solutions for businesses in the beauty services sector
 			</h1>
 			<p class="banner--tagline">
-				I'll handle the tech. You'll get more clients. 
+				I help beauty services get more clients
 			</p>
 			<button class="banner--btn btn--cta">
 				<a href="<?php echo site_url('/contact'); ?>">I want more clients</a>
@@ -39,23 +39,22 @@
 				</div>
 				<div class="box features--box one">
 					<h4 class="h4 features--heading">
-						Running a business is enough work...
+						Tailored to beauty services
 					</h4>
 					<p class="p features--tagline">
-						without you having to play the role of web developer, SEO integrator
-						and social media manager too! Leave it to me - it's what I do best.
+						I provide everything you need to maximise your beauty business' potential. From beautiful, responsive design to editable content and social media integration. 
 					</p>
+					
 				</div>
 				
 				<div class="box features--box three">
-					<h4 class="h4 features--heading">Let's work together</h4>
-					<p class="p features--tagline">
-						With my help, you can take your beauty business to new heights. I offer a
-						variety of web solutions so you can do what you need to do while I
-						handle the digital stuff.
-					</p>
+					<!-- <h4 class="h4 features--heading">Let's work together</h4> -->
+					<!-- <p class="p features--tagline">
+						You focus on your expertise. Let me assist you with mine. 
+					</p> -->
+					<h4 class="h4 features--heading">You focus on your expertise. Let me assist you with mine. </h4>
 					<button class="features--btn btn--secondary">
-						<a href="<?php echo site_url('/contact'); ?>">Get in touch with me</a>
+						<a href="<?php echo site_url('/contact'); ?>">Let's work together</a>
 					</button>
 				</div>
 			</section>
