@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 		<section id="banner" class="banner--lg">
 			<h1 class="banner--heading ">
-				I provide digital solutions for businesses in the beauty services sector
+				Beauty made digital provides digital solutions for businesses in the beauty services sector
 			</h1>
 			<p class="banner--tagline">
-				I help beauty businesses get more clients
+				Quite simply, I help you get more clients. 
 			</p>
 			<button class="banner--btn btn--cta">
-				<a href="<?php echo site_url('/contact'); ?>">Get more clients</a>
+				<a href="<?php echo site_url('/contact'); ?>">I want more clients!</a>
 			</button>
 		</section>
 		<main>
