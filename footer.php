@@ -2,7 +2,7 @@
 	<section class="section--footer">
 			<div id="footer--left">
 				<div class="footer--box">
-					<h4 class="h4 footer--heading">HY Dev</h4>
+					<h4 class="h4 footer--heading">Digital Beauty Solutions</h4>
 					<p class="p footer--description">
 						I'm a freelance web developer offering digital solutions to small businesses in the beauty services industry across the UK.
 					</p>
@@ -30,7 +30,7 @@
 				</div>
 			</div>
 			</section>
-			<p class="p footer--terms">Beauty made digital &copy; 2020</p>
+			<p class="p footer--terms">Digital Beauty Solutions &copy; 2020</p>
 			<p class="p footer--terms">Theme developed with care by Humayraa</p>
 		</footer>
 		<?php wp_footer(); ?>

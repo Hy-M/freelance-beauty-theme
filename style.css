@@ -147,7 +147,7 @@ nav {
 }
 
 .logo--img {
-	margin-top: 1.3rem;
+	margin-top: 0.5rem;
 	height: 160px;
 	width: 160px;
 	padding: 0;
@@ -653,6 +653,7 @@ footer {
 	}
 
 	.logo--img {
+		margin-top: 0.8rem;
 		height: 200px;
 		width: 200px;
 	}
@@ -780,11 +781,10 @@ footer {
 	}
 
 	nav {
-		height: 120px;
+		height: 110px;
 	}
 
 	.logo--img {
-		margin-top: 1.4rem;
 		height: 250px;
 		width: 250px;
 	}
@@ -942,13 +942,13 @@ footer {
 	}
 	/* navigation */
 	nav {
-		height: 140px;
+		/* height: 140px; */
 	}
 
 	.logo--img {
-		height: 300px;
-		width: 300px;
-		margin-top: 1.7rem;
+		/* height: 300px; */
+		/* width: 300px; */
+		/* margin-top: 1.7rem; */
 	}
 
 	nav a {
