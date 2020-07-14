@@ -23,7 +23,7 @@
 					<a href="<?php echo site_url(''); ?>">
 						<!-- <h4 class="h4 logo--title">Beauty made digital</h4> -->
 						<!-- <p class="p--subtext logo--subtext" style="text-align: center;">By Humayraa</p> -->
-						<img class="logo--img" src="<?php echo get_template_directory_uri(); ?>/img/digital-beauty-solutions.png" alt="beauty-made-digital-logo">
+						<img class="logo--img" src="<?php echo get_template_directory_uri(); ?>/img/beauty-made-digital-logo.png" alt="beauty-made-digital-logo">
 					</a>
 					
 				</section>

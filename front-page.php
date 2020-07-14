@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 		<section id="banner" class="banner--lg">
 			<h1 class="banner--heading ">
-				Digital beauty solutions provides digital solutions for businesses in the beauty services sector
+				Beauty Made Digital provides digital solutions for businesses in the beauty services sector
 			</h1>
 			<p class="banner--tagline">
 				To put it simply, I help you get more clients. 
@@ -48,22 +48,12 @@
 				</div>
 				
 				<div class="box features--box three">
-					<!-- <h4 class="h4 features--heading">Let's work together</h4> -->
-					<!-- <p class="p features--tagline">
-						You focus on your expertise. Let me assist you with mine. 
-					</p> -->
 					<h4 class="h4 features--heading">You focus on your expertise. Let me assist you with mine. </h4>
 					<button class="features--btn btn--secondary">
 						<a href="<?php echo site_url('/contact'); ?>">Let's work together</a>
 					</button>
 				</div>
 			</section>
-			<!-- <section class="section testimonials">
-				<div class="box testimonials--box">
-					<h4 class="h4 testimonials--heading">What my clients think</h4>
-					<p class="p testimonials--tagline">Humz is v cool</p>
-				</div>
-            </section> -->
             <section class="section posts frontpage--posts">
                 <h4 class="h4"><a class="link"  href="<?php echo site_url('/blog'); ?>">Latest blog posts</a></h4>
 				<section class="section cards">
