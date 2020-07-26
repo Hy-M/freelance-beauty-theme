@@ -6,9 +6,9 @@
 			<p class="banner--tagline">
 				To put it simply, I help you get more clients. 
 			</p>
-			<button class="banner--btn btn--cta">
-				<a href="<?php echo site_url('/contact'); ?>">I want more clients!</a>
-			</button>
+			<a class="banner--btn btn--cta" href="<?php echo site_url('/contact'); ?>">
+				I want more clients!	
+			</a>
 		</section>
 		<main>
 			<section class="section features">
@@ -49,9 +49,7 @@
 				
 				<div class="box features--box three">
 					<h4 class="h4 features--heading">You focus on your expertise. Let me assist you with mine. </h4>
-					<button class="features--btn btn--secondary">
-						<a href="<?php echo site_url('/contact'); ?>">Let's work together</a>
-					</button>
+					<a class="features--btn btn--secondary" href="<?php echo site_url('/contact'); ?>">Let's work together	</a>
 				</div>
 			</section>
             <section class="section posts frontpage--posts">

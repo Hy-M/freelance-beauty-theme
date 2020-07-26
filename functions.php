@@ -4,7 +4,7 @@ function gt_setup() {
 
     // adding css
     wp_enqueue_style('google_fonts', '//fonts.googleapis.com/css2?family=PT+Sans');
-    wp_enqueue_style('style', get_stylesheet_uri());
+    wp_enqueue_style('style', get_stylesheet_uri(), NULL, microtime());
     // adding js
     wp_enqueue_script('font_awesome', '//kit.fontawesome.com/51ea1f35e7.js');
     wp_enqueue_script('main', get_theme_file_uri('/js/main.js'), '1.0.0', microtime(), true);

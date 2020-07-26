@@ -12,9 +12,9 @@
 	</section>
 	<main class="main--singleBlog">
 		<section class="section post">
-			<p class="post--text">
+			
 				<?php the_content();?>
-			</p>
+			
 		</section>
 		<section class="section--comments">
             <section class="comments--form">

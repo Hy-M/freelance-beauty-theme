@@ -23,10 +23,16 @@
 			<div id="footer--right">
 				<div class="footer--box">
 					<h4 class="h4 footer--heading">
-						<a href="<?php echo site_url('/contact'); ?>">Got any questions?</a>
+						Let's connect
 					</h4>
-					<p class="footer--description">Feel free to 
-					<a class="link" href="<?php echo site_url('/contact'); ?>">contact me</a>.</p>
+					<p class="footer--description">
+					<i class="fab fa-instagram"></i>
+						<a class="link" href="https://www.instagram.com/beautymadedigital/">@beautymadedigital</a>
+					</p>
+					<p class="footer--description">
+					<i class="fab fa-facebook"></i>
+						<a class="link" href="https://www.facebook.com/Beauty-Made-Digital-107626661038634/">Beauty Made Digital page</a>
+					</p>
 				</div>
 			</div>
 			</section>
