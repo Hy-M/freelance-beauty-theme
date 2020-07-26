@@ -31,7 +31,7 @@
 					</p>
 					<p class="footer--description">
 					<i class="fab fa-facebook"></i>
-						<a class="link" href="https://www.facebook.com/Beauty-Made-Digital-107626661038634/">Beauty Made Digital page</a>
+						<a class="link" href="https://www.facebook.com/Beauty-Made-Digital-107626661038634/">Beauty Made Digital</a>
 					</p>
 				</div>
 			</div>

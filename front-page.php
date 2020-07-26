@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 		<section id="banner" class="banner--lg">
-			<h1 class="banner--heading ">
+			<h1 class="banner--heading banner--fp">
 				Beauty Made Digital provides digital solutions for businesses in the beauty services sector
 			</h1>
 			<p class="banner--tagline">

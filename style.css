@@ -242,7 +242,7 @@ nav ul {
 }
 
 .banner--sm {
-	height: 60vh;
+	height: 50vh;
 }
 
 .banner--heading {
@@ -670,21 +670,16 @@ footer {
 		font-size: 1.4rem;
 	}
 
-	#slideout--menu {
-		margin-top: 3.5rem;
-	}
-
-	#slideout--menu ul li {
-		padding: 1rem 0;
-	}
-
 	.banner--heading {
 		width: 70%;
-		margin-top: 3rem;
+	}
+
+	.banner--fp {
+		margin-top: 2rem;
 	}
 
 	.banner--lg {
-		height: 70vh;
+		height: 60vh;
 	}
 
 	.banner--tagline {
@@ -738,11 +733,6 @@ footer {
 		width: 30vw;
 	}
 	/* single blog page */
-	.post {
-		border-left: 2px solid blanchedalmond;
-		border-right: 2px solid blanchedalmond;
-		padding: 0 2rem;
-	}
 
 	#submit {
 		padding: 10px;
@@ -769,7 +759,6 @@ footer {
 
 	#fs-frm {
 		margin: 3rem 0;
-		width: 80%;
 	}
 
 	#fs-frm [type="button"],
@@ -799,7 +788,6 @@ footer {
 
 	nav ul {
 		display: flex;
-		/* margin-right: 2rem; */
 	}
 
 	nav ul li {
@@ -824,17 +812,17 @@ footer {
 
 	/* Banner */
 	.banner--lg {
-		height: 90vh;
+		height: 80vh;
 	}
 
 	.banner--heading {
 		font-size: 1.7rem;
 		letter-spacing: 3.3px;
-		margin-bottom: 1rem;
-		margin-top: 4rem;
+		padding-top: 4rem;
 		line-height: 3.5rem;
 		width: 50%;
 	}
+
 	.banner--tagline {
 		width: 60%;
 		font-size: 1.5rem;
@@ -843,7 +831,6 @@ footer {
 	}
 
 	.banner--btn {
-		margin-top: 3rem;
 		font-size: 1.2rem;
 		width: 30%;
 	}
@@ -913,7 +900,7 @@ footer {
 
 	/* contact */
 	.contact {
-		width: 70%;
+		width: 80%;
 		margin: 0 auto;
 	}
 }
@@ -964,16 +951,8 @@ footer {
 	}
 
 	/* banner */
-	.banner--lg .banner--heading {
-		margin-top: 5rem;
-	}
 
 	.banner--heading {
-		width: 40%;
-	}
-
-	.banner--sm-heading {
-		margin-top: 7rem;
 		width: 40%;
 	}
 
